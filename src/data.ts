@@ -1,6 +1,5 @@
 import { IconType } from "react-icons";
 import { FaGlobe, FaInstagram, FaLinkedin, FaTiktok } from "react-icons/fa";
-import { IoLogoWechat } from "react-icons/io5";
 
 export interface Profile {
   title: string;
@@ -55,10 +54,6 @@ export const profiles: Record<string, Profile> = {
         title: "Instagram",
         href: "https://www.instagram.com/jonolem/",
         icon: FaInstagram,
-      },
-      {
-        title: "WeChat",
-        icon: IoLogoWechat,
       },
     ],
   },
